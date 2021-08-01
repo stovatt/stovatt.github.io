@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Lato, 'Open Sans', sans-serif;
+    color: #203857;
+}
+
+header{
+    background-color: #1C578E;
+    color: #A9D0F5;
+    padding: 2rem;
+    text-align: center;
+}
+
+div{
+    background-color: #A9D0F5;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+}
+
+nav a{
+    padding: 0.5rem 1rem;
+    color: #1C578E;
+    text-decoration: none;
+}
+
+nav a:focus, nav a:hover, nav a:active{
+    background-color: #1C578E;
+    color: #A9D0F5;
+}
+
+/**
+nav a:visited{
+    color: #33465f;
+}
+**/
+
+section{
+    background-color: #D6BC92;
+    padding: 1rem;
+    margin: 0rem 2rem 1rem;
+}
+
+aside{
+    padding: 1rem;
+}
+
+footer{
+    padding: 1rem;
+    background-color: #1C578E;
+    color: #A9D0F5;
+}
+
+footer a{
+    color: #D6BC92;
+}
+
+h1{
+    font-family: Pacifico, 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    padding: 1.5rem 0.3rem;
+    margin-bottom: 1rem;
+    /**border: 3px solid #8F7A59;
+    border-radius: 4rem;**/
+}
+
+h2, h3{
+    margin: 1rem;
+    font-family: Lora, 'Times New Roman', serif;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+p{
+    margin: 1rem;
+    line-height: 1.4;
+}
+
+img{
+    margin: 0rem 1rem;
+}
+
+table{
+    margin: 1rem;
+}
+
+th, td{
+    border: thin solid #203857;
+    padding: 0.5rem;
+}
+
+th{
+    font-weight: bold;
+    background-color: #1C578E;
+    color: #cadff3;
+}
+
+tr:nth-child(even) {
+    background-color: #cadff3;
+}
+
+tr:nth-child(odd) {
+    background-color: #A9D0F5;
+}
+
+@media(min-width: 800px)
+{
+    
+}
