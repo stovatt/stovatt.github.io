@@ -24,14 +24,14 @@ body {
 }
 
 header{
-    background-color: #1C578E;
-    color: #A9D0F5;
+    background-color: #EDD99D;
+    color: #851341;
     padding: 2rem 0rem;
     text-align: center;
 }
 
 div{
-    background-color: #A9D0F5;
+    background-color: #B0D1B4;
 }
 
 nav ul{
@@ -59,7 +59,7 @@ main{
 }
 
 section{
-    background-color: #D6BC92;
+    background-color: #EEC4CA;
     padding: 5%;
     margin-bottom: 3%;
 }
@@ -151,8 +151,8 @@ input[type="Submit"]{
 
 footer{
     padding: 5%;
-    background-color: #1C578E;
-    color: #A9D0F5;
+    background-color: #EDD99D;
+    color: #851341;
 }
 
 footer a{
