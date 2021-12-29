@@ -167,11 +167,15 @@ footer a{
     input[type="Submit"]{
         margin-left: 15rem;
     }
+
+    header, main{
+        width: 30rem;
+        margin: auto;
+    }
     
 }
 
-@media(min-width: 800px)
-{    
+@media(min-width: 800px){    
 
     article:nth-child(odd){
         float: left;
@@ -187,6 +191,10 @@ footer a{
         content: "";
         display: table;
         clear: both;
+    }
+
+    section{
+    padding: 0.5rem 1rem;
     }
 
     section > img{
