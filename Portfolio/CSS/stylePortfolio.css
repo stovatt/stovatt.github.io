@@ -84,7 +84,7 @@ header, footer{
 
 section > div{
     background-color: #D0FFBA;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #D0FFBA;
 }
 
 section div:hover{
@@ -112,21 +112,29 @@ section{
   display: table;
 }
 
-@media(min-width: 60rem) {
-
-    main{
-        width: 50rem;
-        padding: 3rem;
-    }
+@media(min-width: 30rem){
 
     .item3{
         grid-column-start: 3;
         grid-column-end: 4;
     }
 
+}
+
+@media(min-width: 50rem){
+
     .item4{
         grid-column-start: 4;
         grid-column-end: 5;
+    }
+
+}
+
+@media(min-width: 60rem) {
+
+    main{
+        width: 50rem;
+        padding: 3rem;
     }
     
 }
