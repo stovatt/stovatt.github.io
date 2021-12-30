@@ -51,13 +51,13 @@ h1{
 }
 
 h2{
-    font-family: Licorice, 'Times', serif;
+    font-family: Cantarell, 'Times', serif;
     margin: 0rem;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
 }
 
 h3{
-    font-family: Licorice, 'Times', serif;
+    font-family: Cantarell, 'Times', serif;
     font-size: 1.5rem;
 }
 
@@ -94,6 +94,7 @@ section div:hover{
 section{
     display: grid;
     grid-gap: 5px;
+    padding: 1rem 0rem 2rem;
 }
 
 .item1{
