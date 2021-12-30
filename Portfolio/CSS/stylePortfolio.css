@@ -20,24 +20,24 @@ html {
 
 body {
     font-family: Lato, 'Open Sans', sans-serif;
-    color: #040000;
+    color: #001000;
 }
 
 div{
-    background-color: #6D6D6D;
+    background-color: #4D852A;
 }
 
 main{
-    background-color: #ffffff;
+    background-color: #D0FFBA;
     padding: 1rem 1rem;
     margin: auto;
 }
 
 section{
-    background-color: #E0E0E0;
+    background-color: #EBFCDE;
     border-width: 4px;
     border-style: solid;
-    border-color: #3D403E;
+    border-color: #163800;
     padding: 5%;
     margin-bottom: 3%;
 }
@@ -76,10 +76,35 @@ img{
 header, footer{
     padding: 2rem;
     margin: auto;
-    background-color: #040000;
-    color: #ffffff;
+    background-color: #163800;
+    color: #EBFCDE;
 }
 
+footer{
+    clear: left;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #000000;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #FFFFFF;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 @media(min-width: 60rem) {
 
