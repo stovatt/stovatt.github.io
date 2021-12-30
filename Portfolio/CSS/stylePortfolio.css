@@ -29,10 +29,11 @@ div{
 
 main{
     background-color: #D0FFBA;
-    padding: 1rem 1rem;
+    padding: 1rem;
     margin: auto;
 }
 
+/*
 section{
     background-color: #EBFCDE;
     border-width: 4px;
@@ -41,6 +42,7 @@ section{
     padding: 5%;
     margin-bottom: 3%;
 }
+*/
 
 h1{
     font-family: Cantarell, 'Open Sans', sans-serif;
@@ -80,21 +82,18 @@ header, footer{
     color: #EBFCDE;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #000000;
-  float: left;
-  width: 30%;
-  background-color: #EBFCDE;
+section > div{
+    background-color: #D0FFBA;
+    border: 2px solid #000000;
 }
 
-div.gallery:hover {
-  border: 1px solid #FFFFFF;
+section div:hover{
+    border: 2px solid #FFFFFF;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto; 
+section{
+    display: grid;
+    grid-gap: 5px;
 }
 
 .clearfix::after {
@@ -108,6 +107,21 @@ div.gallery img {
     main{
         width: 50rem;
         padding: 3rem;
+    }
+
+    .item1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .item2{
+     grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .item3{
+        grid-column-start: 3;
+        grid-column-end: 4;
     }
     
 }
