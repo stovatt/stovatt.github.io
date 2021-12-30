@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../../CSS/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Licorice';
+    src: url(../../CSS/fonts/Licorice/Licorice-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../../CSS/fonts/Cantarell/Cantarell-Regular.ttf);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Lato, 'Open Sans', sans-serif;
+    color: #040000;
+}
+
+div{
+    background-color: #6D6D6D;
+}
+
+main{
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    margin: auto;
+}
+
+section{
+    background-color: #E0E0E0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3D403E;
+    padding: 5%;
+    margin-bottom: 3%;
+}
+
+h1{
+    font-family: Cantarell, 'Open Sans', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: Licorice, 'Times', serif;
+    margin: 0rem;
+    font-size: 2.3rem;
+}
+
+h3{
+    font-family: Licorice, 'Times', serif;
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: Cantarell, 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+a{
+    color: #000000;
+}
+
+img{
+    max-width: 100%;
+}
+
+header, footer{
+    padding: 2rem;
+    margin: auto;
+    background-color: #040000;
+    color: #ffffff;
+}
+
+
+@media(min-width: 60rem) {
+
+    main{
+        width: 50rem;
+        padding: 3rem;
+    }
+    
+}
+
