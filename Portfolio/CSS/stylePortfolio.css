@@ -80,15 +80,12 @@ header, footer{
     color: #EBFCDE;
 }
 
-footer{
-    clear: left;
-}
-
 div.gallery {
   margin: 5px;
   border: 1px solid #000000;
   float: left;
-  width: 180px;
+  width: 30%;
+  background-color: #EBFCDE;
 }
 
 div.gallery:hover {
@@ -97,7 +94,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: auto; 
 }
 
 .clearfix::after {
