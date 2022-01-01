@@ -117,7 +117,7 @@ section{
 nav{
   float: right;
   display: inline-block;
-  padding-right: 4rem;
+  padding-right: 0rem;
 }
 
 nav a, .dropbtn{
@@ -173,6 +173,10 @@ nav:hover .dropdown-content {
         grid-column-end: 5;
     }
 
+    nav{
+        padding-right: 3rem;
+    }
+
 }
 
 @media(min-width: 60rem) {
@@ -180,6 +184,10 @@ nav:hover .dropdown-content {
     main{
         width: 50rem;
         padding: 3rem;
+    }
+
+    nav{
+        padding-right: 4rem;
     }
     
 }
