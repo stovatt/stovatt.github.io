@@ -33,17 +33,6 @@ main{
     margin: auto;
 }
 
-/*
-section{
-    background-color: #EBFCDE;
-    border-width: 4px;
-    border-style: solid;
-    border-color: #163800;
-    padding: 5%;
-    margin-bottom: 3%;
-}
-*/
-
 h1{
     font-family: Cantarell, 'Open Sans', sans-serif;
     font-size: 2rem;
@@ -68,7 +57,12 @@ p{
 }
 
 a{
-    color: #000000;
+    color: #D0FFBA;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #4D852A;
 }
 
 img{
