@@ -52,9 +52,7 @@ article{
     padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    border-color: #0D4680;
-    border-style: solid none none none;
-    border-width: 6px;
+    border-top: 6px solid #0D4680;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 
 }
@@ -132,6 +130,24 @@ img{
     border-style: solid;
     border-width: 1px;
     border-color: #06223D;
+}
+
+th, tr, td{
+    border: 1px solid #000000;
+    padding: 1rem;
+}
+
+th{
+    color: #ffffff;
+    background-color: #06223D; 
+}
+
+tr:nth-child(even){
+  background-color: #8A9199;
+}
+
+tr:nth-child(odd){
+    background-color: #f8f8ff;
 }
 
 .clearfix::after {
