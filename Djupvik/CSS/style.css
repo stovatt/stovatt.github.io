@@ -48,14 +48,13 @@ section{
 }
 
 article{
-    background-color: #8A9199;
+    background-color: #f8f8ff;
     padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     border-color: #0D4680;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 8px;
+    border-style: solid none none none;
+    border-width: 6px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 
 }
