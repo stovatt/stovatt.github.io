@@ -120,6 +120,7 @@ nav a{
 
 nav a:hover{
     background-color: #06223D;
+    color: #ffffff;
 }
 
 nav li{
