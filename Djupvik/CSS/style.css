@@ -149,15 +149,12 @@ tr:nth-child(odd){
     background-color: #D3DFEB;
 }
 
-dl{
-}
-
 dt{
+    padding: 0.3rem 1rem 0rem 0rem;
+    /*text-align: right;*/
+    font-weight: bold;
     float: left;
     clear: left;
-    padding: 0.3rem 1rem 0rem 0rem;
-    text-align: right;
-    font-weight: bold;
 }
 
 dt::after {
@@ -166,6 +163,7 @@ content: ":";
 
 dd {
     padding: 0.3rem;
+    margin-left: 3rem;
 }
 
 form{
@@ -175,6 +173,11 @@ form{
 form p{
     margin: 0rem;
     font-family: Lato, 'Open Sans', sans-serif;
+}
+
+form dt{
+    float: none;
+    clear: left;
 }
 
 input, textarea{
@@ -207,22 +210,27 @@ input[type="submit"], input[type="reset"]{
     float: right;
 }
 
-form li::after{
+form dd::after, form dt::after{
     content: "";
     clear: both;
     display: table;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+@media(min-width: 30rem){
+    dd {
+        margin-left: 10rem;
+    }
+
+    form dd{
+        margin-left: 0rem;
+    }
+
 }
 
 @media(min-width: 40rem) {
 
     form{
-        padding: 1rem 3rem;
+        padding: 1rem 2rem;
     }
 
     nav{
@@ -231,6 +239,16 @@ form li::after{
 
     section{
         padding: 1rem 3rem;
+    }
+
+    form dd{
+        margin-left: 15rem;
+        padding: 0rem;
+    }
+
+    form dt{
+        float: left;
+        clear: left;
     }
     
 }
