@@ -48,7 +48,7 @@ section{
 }
 
 article, form{
-    background-color: #f8f8ff;
+    background-color: #EFEFFF;;
     padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -157,12 +157,28 @@ tr:nth-child(odd){
 
 form{
     line-height: 2rem;
-
 }
 
 form p{
     margin: 0rem;
     font-family: Lato, 'Open Sans', sans-serif;
+}
+
+input, textarea{
+    padding: 0.3rem;
+    border: 0px solid #0D4680;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2) inset;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 2px solid #B6CCE3;
+}
+
+input[type="radio"]{
+    background-color: #000000;
+
 }
 
 input[type="submit"], input[type="reset"]{
@@ -184,6 +200,10 @@ input[type="submit"], input[type="reset"]{
 }
 
 @media(min-width: 40rem) {
+
+    form{
+        padding: 1rem 3rem;
+    }
 
     nav{
         padding-left: 2rem;
