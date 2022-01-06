@@ -187,6 +187,10 @@ form dt{
     clear: left;
 }
 
+form dd{
+    margin-left: 0rem;
+}
+
 input, textarea{
     padding: 0.3rem;
     border: 1px solid  #8A9199;
