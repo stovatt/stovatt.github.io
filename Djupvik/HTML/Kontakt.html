@@ -45,6 +45,49 @@
         <h2>Kontaktformulär</h2>
 
         <form action="#">
+          <ul>
+            <li>
+              <p>Vad gäller ditt ärende?</p>
+              <input type="radio" id="båtplats" name="val_av_ärende" value="Båtplats">
+              <label for="båtplats">Båtplats</label>
+              <input type="radio" id="medlem" name="val_av_ärende" value="Medlem">
+              <label for="medlem">Medlem</label>
+              <input type="radio" id="övrigt" name="val_av_ärende" value="Övrigt">
+              <label for="övrigt">Övrigt</label>
+            </li>
+            <li>
+              <label for="rubrik">Rubrik för ärende:</label>
+              <input type="text" id="rubrik" name="rubrik">
+            </li>
+            <li>
+              <label for="beskrivning">Beskrivning av ärende:</label>
+              <textarea name="beskrivning" rows="10" cols="30"></textarea>
+            </li>
+            <li>
+              <p>Hur vill du bli kontaktad?</p>
+              <input type="radio" id="mail" name="kontakt_väg" value="Mail">
+              <label for="mail">Mail</label>
+              <input type="radio" id="telefon" name="kontakt_väg" value="Telefon">
+              <label for="telefon">Telefon</label>
+              <input type="radio" id="intealls" name="kontakt_väg" value="InteAlls">
+              <label for="intealls">Inte alls</label>
+            </li>
+            <li>
+              <label for="telefonnummer">Telefonnummer:</label>
+              <input type="number" id="telefonnummer" name="telefonnummer">
+            </li>
+            <li>
+              <label for="mailadress">Mailadress:</label>
+              <input type="email" id="mailadress" name="mailadress">
+            </li>
+            <li>
+              <input type="submit" value="Submit">
+              <input type="reset">
+            </li>
+          </ul>
+        </form>
+
+        <form action="#">
           <p>Vad gäller ditt ärende?</p>
           <input type="radio" id="båtplats" name="val_av_ärende" value="Båtplats">
           <label for="båtplats">Båtplats</label>

@@ -8,16 +8,9 @@ Grå: #8A9199
 Ljus: #B6CCE3
 */
 
-
-
 @font-face {
-    font-family: 'Pacifico';
-    src: url(../../CSS/fonts/Pacifico/Pacifico-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Licorice';
-    src: url(../../CSS/fonts/Licorice/Licorice-Regular.ttf);
+    font-family: 'Lato';
+    src: url(../../CSS/fonts/Lato/Lato-Regular.ttf);
 }
 
 @font-face {
@@ -80,7 +73,6 @@ h1{
 }
 
 h2{
-    /*font-family: Cantarell, 'Times', serif;*/
     margin: 0rem;
     font-size: 1.7rem;
     margin-bottom: 1rem;
@@ -88,13 +80,11 @@ h2{
 }
 
 h3{
-    /*font-family: Cantarell, 'Times', serif;*/
     font-size: 1.3rem;
     margin-top: 1rem;
 }
 
 h4{
-    /*font-family: Cantarell, 'Times', serif;*/
     font-size: 1.1rem;
     margin-top: 1rem;
 }
@@ -213,7 +203,14 @@ input[type="submit"], input[type="reset"]{
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.6);
     font-family: Lato, 'Open Sans', sans-serif;
     font-size: 1rem;
-    margin-top: 1rem;
+    margin: 0.5rem;
+    float: right;
+}
+
+form li::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .clearfix::after {
@@ -251,10 +248,6 @@ input[type="submit"], input[type="reset"]{
         float: left;
         width: 10rem;
         padding-top: 1rem;
-    }
-
-    nav li{
-        display: block;
     }
 
     nav a{
