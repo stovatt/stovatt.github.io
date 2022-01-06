@@ -43,14 +43,37 @@
         </p>
 
         <h2>Kontaktformulär</h2>
-        <p>
-          - Rubrik för ärendet. <br>
-          - Beskrivning utav ärendet. <br>
-          - Val om vad det gäller (Båtplats, Medlem eller Övrigt). <br>
-          - Hur man vill bli kontaktad (mail, telefon eller inte alls) <br>
-          - Telefon <br>
-          - Mail <br>
-        </p>
+
+        <form action="#">
+          <p>Vad gäller ditt ärende?</p>
+          <input type="radio" id="båtplats" name="val_av_ärende" value="Båtplats">
+          <label for="båtplats">Båtplats</label>
+          <input type="radio" id="medlem" name="val_av_ärende" value="Medlem">
+          <label for="medlem">Medlem</label>
+          <input type="radio" id="övrigt" name="val_av_ärende" value="Övrigt">
+          <label for="övrigt">Övrigt</label><br>
+
+          <label for="rubrik">Rubrik för ärende:</label>
+          <input type="text" id="rubrik" name="rubrik"><br>
+          <label for="beskrivning">Beskrivning av ärende:</label><br>
+          <textarea name="beskrivning" rows="10" cols="30"></textarea><br>
+
+          <p>Hur vill du bli kontaktad?</p>
+          <input type="radio" id="mail" name="kontakt_väg" value="Mail">
+          <label for="mail">Mail</label>
+          <input type="radio" id="telefon" name="kontakt_väg" value="Telefon">
+          <label for="telefon">Telefon</label>
+          <input type="radio" id="intealls" name="kontakt_väg" value="InteAlls">
+          <label for="intealls">Inte alls</label><br>
+
+          <label for="telefonnummer">Telefonnummer:</label>
+          <input type="number" id="telefonnummer" name="telefonnummer"><br>
+          <label for="mailadress">Mailadress:</label>
+          <input type="email" id="mailadress" name="mailadress"><br>
+
+          <input type="submit" value="Submit">
+          <input type="reset">
+        </form>
 
         <img src="../Images/D-22.jpg" alt="">
         <img src="../Images/D-28.jpg" alt="">
