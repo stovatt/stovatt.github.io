@@ -59,6 +59,7 @@ header, footer{
     margin: auto;
     background-color: #06223D;
     color: #ffffff;
+    background-image: url("../Images/Extra/boats_in_dock.jpg");
 }
 
 nav{
