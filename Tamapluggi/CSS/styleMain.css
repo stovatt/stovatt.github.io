@@ -19,7 +19,17 @@ header{
     padding: 30px;
     background-color: #6CBB6A;
     color: #FFFFFF;
-    height: 100px;
+}
+
+header::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header > a{
+    float: right;
+    width: 50px;
 }
 
 main{
@@ -29,17 +39,25 @@ main{
 nav{
     display: flex;
     flex-direction: row;
+}
+
+nav > a{
     margin: 10px;
 }
 
 footer{
     background-color: #649552;
     color: #EBFCDE;
-    height: 140px;
+    padding: 30px 10px;
 }
 
 img{
     max-width: 100%;
+}
+
+h1{
+    font-size: 2rem;
+    padding-top: 1.5rem;
 }
 
 @media(min-width: 450px) {
