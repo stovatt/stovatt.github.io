@@ -45,6 +45,11 @@ nav > a{
     margin: 10px;
 }
 
+section{
+    background-color: #D9EFD8;
+    padding: 1rem;
+}
+
 footer{
     background-color: #649552;
     color: #EBFCDE;
@@ -83,6 +88,17 @@ ul{
 h1{
     font-size: 2rem;
     padding-top: 1.5rem;
+}
+
+h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 @media(min-width: 450px) {
