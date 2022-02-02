@@ -38,10 +38,8 @@ footer{
     height: 140px;
 }
 
-image{
+img{
     max-width: 100%;
-    width: 50px;
-    object-fit: contain;
 }
 
 @media(min-width: 450px) {
