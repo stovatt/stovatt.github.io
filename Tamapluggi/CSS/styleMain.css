@@ -56,6 +56,19 @@ img{
     /*border: solid;*/
 }
 
+li > a{
+    padding: 1rem;
+    background-color: #649552;
+    color:#FFFFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+li{
+    margin: 3rem;
+}
+
 h1{
     font-size: 2rem;
     padding-top: 1.5rem;
