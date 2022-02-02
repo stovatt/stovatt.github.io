@@ -62,6 +62,7 @@ li > a{
     color:#FFFFFF;
     text-decoration: none;
     text-align: center;
+    font-size: 1.5rem;
     border-radius: 10px;
     border-style: solid;
     display: block;
@@ -69,11 +70,14 @@ li > a{
 }
 
 li{
-    margin: 1rem;
+    margin: 0.5rem;
+    display: inline-block;
 }
 
 ul{
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
 h1{
