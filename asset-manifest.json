@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Tamapluggii/static/css/main.bce63431.css",
+    "main.js": "/Tamapluggii/static/js/main.78df0bc6.js",
+    "static/media/1yr_walking.gif": "/Tamapluggii/static/media/1yr_walking.fcc5991e5da92c145b4e.gif",
+    "static/media/alarm.m4a": "/Tamapluggii/static/media/alarm.8c19d1e48a4af7171067.m4a",
+    "static/media/study_book.svg": "/Tamapluggii/static/media/study_book.442f6d03e63967648fe435c7ddcf45f2.svg",
+    "static/media/snack.svg": "/Tamapluggii/static/media/snack.c4f8e10eb42d8bb2332c6641f6d61d05.svg",
+    "static/media/settings.svg": "/Tamapluggii/static/media/settings.b5026aa7c2872138b48fa2fa108e218b.svg",
+    "static/media/flashcards.svg": "/Tamapluggii/static/media/flashcards.21e952ba06aa9bb02a6386dc394e9464.svg",
+    "static/media/planning.svg": "/Tamapluggii/static/media/planning.1efe7d04583b014b72d8c7a9a4cbf6ed.svg",
+    "static/media/home.svg": "/Tamapluggii/static/media/home.a68f2a0a889480b54488d5cfd0ca11ee.svg",
+    "static/media/knowledge.svg": "/Tamapluggii/static/media/knowledge.0db1f922b85a1df3b862e7a694decf00.svg",
+    "static/media/nonstress.svg": "/Tamapluggii/static/media/nonstress.dcff8b4839064863c257a83a9df50bab.svg",
+    "index.html": "/Tamapluggii/index.html",
+    "static/media/study.svg": "/Tamapluggii/static/media/study.b608677003f7a1618969e8be18ce3ffe.svg",
+    "static/media/energy.svg": "/Tamapluggii/static/media/energy.7a41e0f12c78b259f4506036a16b5c4e.svg",
+    "static/media/statistics.svg": "/Tamapluggii/static/media/statistics.beb41a1a35f924c2d552e33ef44206ed.svg",
+    "main.bce63431.css.map": "/Tamapluggii/static/css/main.bce63431.css.map",
+    "main.78df0bc6.js.map": "/Tamapluggii/static/js/main.78df0bc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bce63431.css",
+    "static/js/main.78df0bc6.js"
+  ]
+}
