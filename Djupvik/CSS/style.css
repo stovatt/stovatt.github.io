@@ -1,0 +1,288 @@
+/*
+
+Färger
+
+Mörk: #06223D
+Blå: #0D4680
+Grå: #8A9199
+Ljus: #B6CCE3
+*/
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../../CSS/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../../CSS/fonts/Cantarell/Cantarell-Regular.ttf);
+}
+
+html {
+    font-size: 100%;
+    height: 100%
+}
+
+body {
+    font-family: Lato, 'Open Sans', sans-serif;
+    color: #06223D;
+    height: 100%    
+}
+
+main{
+    background-color: #0D4680;
+}
+
+section{
+    background-color: #B6CCE3;
+    margin: auto;
+    padding: 1rem 1rem;
+    box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5) inset;
+}
+
+article, form{
+    background-color: #EFEFFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-top: 6px solid #0D4680;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+
+}
+
+header{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+header, footer{
+    padding: 2rem;
+    margin: auto;
+    background-color: #06223D;
+    color: #ffffff;
+    /*background-image: url("../Images/Extra/boats_in_dock.jpg");*/
+}
+
+nav{
+    background-color: #0D4680;
+    box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3) inset;
+}
+
+h1{
+    font-family: Cantarell, 'Open Sans', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    margin: 0rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+h3{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+h4{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+p{
+    font-family: Cantarell, 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8A9199;
+}
+
+nav a{
+  color: #ffffff;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
+nav a:hover{
+    background-color: #06223D;
+    color: #ffffff;
+}
+
+nav li{
+    display: inline;
+}
+
+img{
+    max-width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #06223D;
+}
+
+table{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    margin: auto;
+ 
+}
+
+.dontOverflow{
+    overflow-x: auto;
+    display: inline;
+}
+
+th, tr, td{
+    padding: 1rem;
+}
+
+th{
+    background-color: #8A9199;
+}
+
+tr:nth-child(even){
+  background-color: #f8f8ff;
+}
+
+tr:nth-child(odd){
+    background-color: #D3DFEB;
+}
+
+dt{
+    padding: 0.3rem 1rem 0rem 0rem;
+    /*text-align: right;*/
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+dt::after {
+content: ":";
+}
+
+dd {
+    padding: 0.3rem;
+    margin-left: 3rem;
+}
+
+form{
+    line-height: 2rem;
+}
+
+form p{
+    margin: 0rem;
+    font-family: Lato, 'Open Sans', sans-serif;
+}
+
+form dt{
+    float: none;
+    clear: left;
+}
+
+form dd{
+    margin-left: 0rem;
+}
+
+input, textarea{
+    padding: 0.3rem;
+    border: 1px solid  #8A9199;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 2px solid #B6CCE3;
+}
+
+input[type="radio"]{
+    background-color: #000000;
+
+}
+
+input[type="submit"], input[type="reset"]{
+    background-color: #0D4680;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+    border-width: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.6);
+    font-family: Lato, 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem;
+    float: right;
+}
+
+form dd::after, form dt::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media(min-width: 30rem){
+    dd {
+        margin-left: 10rem;
+    }
+
+    form dd{
+        margin-left: 0rem;
+    }
+
+}
+
+@media(min-width: 40rem) {
+
+    form{
+        padding: 1rem 2rem;
+    }
+
+    nav{
+        padding-left: 2rem;
+    }
+
+    section{
+        padding: 1rem 3rem;
+    }
+
+    form dd{
+        margin-left: 15rem;
+        padding: 0rem;
+    }
+
+    form dt{
+        float: left;
+        clear: left;
+    }
+    
+}
+
+@media(min-width: 65rem) {
+
+    section{
+        width: 50rem;
+        padding: 1rem 3rem;
+        margin-left: 10rem;
+    }
+
+    nav{
+        padding-left: 0rem;
+        float: left;
+        width: 10rem;
+        padding-top: 1rem;
+    }
+
+    nav a{
+        width: 6rem;
+        padding: 1.5rem 2rem;
+        text-align: left;
+    }
+}
+
